@@ -61,7 +61,7 @@ namespace PlayerControl
 
 			[Tooltip("The horizontal movement string")]
 			// string _horizontalMoveInput is Horizontal
-			[SerializeField] private string horizontalMoveInput = "Horizontal";
+			[SerializeField] private string _horizontalMoveInput = "Horizontal";
 
 			[Tooltip("The vertical movement string")]
 			// string _verticalMoveInput is Vertical	
@@ -258,7 +258,7 @@ namespace PlayerControl
 			float _currentStepInterval = (Input.GetKey(_sprintKey) ? _sprintStepInterval : _walkStepInterval);
 
 			// if _characterController isGrounded and _isMoving and Time time > _nextStepTime and_characterController velocity magnitude > _velocityThreshold
-			if (_characterController.isGrounded && _isMoving && Time.time > _nextStepTime && _characterController.velocity.magnitude > velocityThreshold)
+			if (_characterController.isGrounded && _isMoving && Time.time > _nextStepTime && _characterController.velocity.magnitude > _velocityThreshold)
 			{
 				// Play Footstep Sounds
 				PlayFootstepSounds();
