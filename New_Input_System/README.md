@@ -15,14 +15,14 @@ Create a basic Player Controller for your Unity projects. *
 Player Controls:
 ----------------
 
-Player Forward:   W [Keyboard] / Left Stick [Gamepad]
-Player Reverse:   S [Keyboard] / Left Stick [Gamepad]
-Player Left:      A [Keyboard] / Left Stick [Gamepad]
-Player Right:     D [Keyboard] / Left Stick [Gamepad]
-Player Jump:      Space [Keyboard] / Button South [Gamepad] 
-Player Sprint:    Shift [Keyboard] / Left Shoulder [Gamepad]
+* Player Forward:   W [Keyboard] / Left Stick [Gamepad]
+* Player Reverse:   S [Keyboard] / Left Stick [Gamepad]
+* Player Left:      A [Keyboard] / Left Stick [Gamepad]
+* Player Right:     D [Keyboard] / Left Stick [Gamepad]
+* Player Jump:      Space [Keyboard] / Button South [Gamepad] 
+* Player Sprint:    Shift [Keyboard] / Left Shoulder [Gamepad]
 
-Look:             Delta [Mouse] / Right Stick [Gamepad]
+* Look:             Delta [Mouse] / Right Stick [Gamepad]
 
 
 Manual Setup Instruction:
@@ -48,9 +48,9 @@ Step 1: Create: "Environment" * (for Nicer Organization)
 
 Create Empty: "Environment"
 
-Position: X: 0 Y: 0 Z: 0 
-Rotation: X: 0 Y: 0 Z: 0 
-Scale:    X: 1 Y: 1 Z: 1
+* Position: X: 0 Y: 0 Z: 0 
+* Rotation: X: 0 Y: 0 Z: 0 
+* Scale:    X: 1 Y: 1 Z: 1
 
 First since this is just a "holder" added for better organization, let us go
 ahead & drag the "Directional Light" into "Environment".
@@ -73,9 +73,9 @@ Step 2: Create: "Terrain Plane"
 
 Create New 3D Object: "Plane"
 
-Position: X: 0   Y: -0.03 Z: 0 
-Rotation: X: 0   Y: 0     Z: 0 
-Scale:    X: 100 Y: 1     Z: 100
+* Position: X: 0   Y: -0.03 Z: 0 
+* Rotation: X: 0   Y: 0     Z: 0 
+* Scale:    X: 100 Y: 1     Z: 100
 
 Rename to: "Terrain Plane"
 
@@ -97,9 +97,9 @@ Modify via:
 
 "Terrain" Inspector: Terrain Settings
 
-Position: X: -500 Y: 0 Z: -500 
-Rotation: X: 0     Y: 0 Z: 0 
-Scale:    X: 1     Y: 1 Z: 1
+* Position: X: -500 Y: 0 Z: -500 
+* Rotation: X: 0     Y: 0 Z: 0 
+* Scale:    X: 1     Y: 1 Z: 1
 
 We can now opt to clean up for better organization, simply drag the:
 "Terrain" into the holder "Environment" we added for just this exact purpose!
@@ -117,9 +117,9 @@ Create empty object and name such: "Player"
 Transform: 
 ----------
 
-Position: X: 0 Y: 0.9799998 Z: 0 
-Rotation: X: 0 Y: 0  Z: 0 
-Scale:    X: 1 Y: 1  Z: 1
+* Position: X: 0 Y: 0.9799998 Z: 0 
+* Rotation: X: 0 Y: 0  Z: 0 
+* Scale:    X: 1 Y: 1  Z: 1
 
 Add Tag: "Player"
 
@@ -149,9 +149,9 @@ such: "Camera"
 Transform: 
 ----------
 
-Position: X: 0 Y: 0.6 Z: 0 
-Rotation: X: 0 Y: 0   Z: 0 
-Scale:    X: 1 Y: 1   Z: 1
+* Position: X: 0 Y: 0.6 Z: 0 
+* Rotation: X: 0 Y: 0   Z: 0 
+* Scale:    X: 1 Y: 1   Z: 1
 
 Depth: "1" 
 
@@ -192,10 +192,10 @@ Footstep Source: Player (AudioSource)
 
 Footsep Sounds: "4"
 
-Element 0: "Footstep01"
-Element 1: "Footstep02"
-Element 2: "Footstep03"
-Element 3: "Footstep04"
+* Element 0: "Footstep01"
+* Element 1: "Footstep02"
+* Element 2: "Footstep03"
+* Element 3: "Footstep04"
 
 
 -----------------------------------------------------------------------------------
