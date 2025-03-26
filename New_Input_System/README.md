@@ -134,7 +134,10 @@ Step 5: Add: empty object "View":
 In "Player" object, create a child of the "Player" object and name
 such: "View"
 
-Transform Position: X: 0 Y: 0 Z: 0
+Transform:
+----------
+
+* Position: X: 0 Y: 0 Z: 0
 
 
 -----------------------------------------------------------------------------------
