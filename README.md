@@ -19,8 +19,8 @@ Unity-BasicVehiclesControl_ForSyntyBR repo, Unity-BasicNavigationControl
 repo, etc, etc...) and as such now deciding to have an individual repo for such basic
 player control script in the event that say any changes and or updates may be
 made to such here even say if and or not any such changes will be made to
-various repos that such was originally inluded in as an example usage.
-Hopefully that makes sense. 
+various repos that such was originally included in as an example usage.
+Hopefully that all makes sense. 
 
 Documentations:
 ---------------
