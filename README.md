@@ -5,7 +5,8 @@ Description:
 
 Create a basic Player Controller for your Unity projects *
 
-* (now by either using the old input system or the new input system)
+* (using the old input system as previously provided files allowed or now
+  using the new input system with new files provided for such usage)
 
 
 REPO NOTE: The purpose of this repository was decided upon recently when
