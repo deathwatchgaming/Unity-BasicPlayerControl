@@ -156,7 +156,17 @@ Add Tag: "MainCamera"
 
 -----------------------------------------------------------------------------------
 
-Step 7: Edit: the "CharacterController" component:
+Step 7: Add Component: "First Person Controller (Script)"
+
+-----------------------------------------------------------------------------------
+
+
+Add: "FirstPersonController.cs" script to object: "Player"
+
+
+-----------------------------------------------------------------------------------
+
+Step 8: Edit: the "CharacterController" component:
 
 -----------------------------------------------------------------------------------
 
@@ -164,16 +174,6 @@ Step 7: Edit: the "CharacterController" component:
 In "Player" object, edit the "CharacterController" component:
 
 Height: "1.8"
-
-
------------------------------------------------------------------------------------
-
-Step 8: Add Component: "First Person Controller (Script)"
-
------------------------------------------------------------------------------------
-
-
-Add: "FirstPersonController.cs" script to object: "Player"
 
 
 -----------------------------------------------------------------------------------
